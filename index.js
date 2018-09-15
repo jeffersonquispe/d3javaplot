@@ -1,4 +1,4 @@
-Plotly.d3.csv('3d-scatter.csv', function(err, rows){
+Plotly.d3.csv('https://raw.githubusercontent.com/jeffersonquispe/d3javaplot/master/3d-scatter.csv', function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) 
           { return row[key]; });
